@@ -12,6 +12,8 @@ This is a forked repository from the official IsaacLab for robotics research and
 - **Minimal Code Generation**: Only create files and code that are absolutely necessary
 - **Follow Original Design**: Use the framework as intended by the original developers to minimize errors
 - **No Temporary Solutions**: Avoid quick fixes or workarounds; implement proper solutions
+- **Code Reuse Over Duplication**: When interfaces change, modify existing code rather than creating parallel implementations. Fix root causes, not symptoms
+- **Single Source of Truth**: Avoid creating multiple versions of similar functionality. Improve and adapt existing code instead
 - **Language Preference**: All responses, comments, and documentation (except CLAUDE.md) should be in Korean
 
 ## Workflow
