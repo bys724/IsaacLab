@@ -1,0 +1,24 @@
+# Extension Configuration for Custom Environments
+[package]
+
+# Extension information
+title = "Custom Robot Environments"
+version = "1.0.0"
+category = "Simulation"
+description = "Custom robot environments for IsaacLab including dual-arm manipulation"
+authors = ["IsaacLab User"]
+repository = ""
+keywords = ["isaaclab", "robotics", "manipulation", "reinforcement learning"]
+
+# Isaac Sim compatibility
+"isaac_sim.version" = "4.2.*"
+
+# Kit extensions
+[dependencies]
+"omni.isaac.core" = {}
+"omni.isaac.lab" = {}
+"omni.isaac.lab_assets" = {optional = true}
+
+# Python dependencies
+[[python.module]]
+name = "my_environments"
